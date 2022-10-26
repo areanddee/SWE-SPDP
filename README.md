@@ -10,7 +10,7 @@ Getting started
 
 Once all folders are on device, navigate to top directory: SWE-SPDP/
 
-Serial/on personal device/serial Gnu (generic gcc compile):
+Serial/Gnu on personal device (generic gcc compile):
 Compile with the following command: . ./compile_default.sh
 Run with the following command: . ./run/openCL/run.sh
 Expected output: output_cfdl.txt, output_sfdl.txt, output_cfdl_sfdl.txt, output_default.txt in run/openCL/output/
@@ -18,15 +18,15 @@ Expected output: output_cfdl.txt, output_sfdl.txt, output_cfdl_sfdl.txt, output_
 Serial/on personal device/serial Intel (generic icc compile):
 Set OPENMP=0 in arch/intel/config.swe before compiling
 Compile with the following command: . ./compile_intel.sh
-Run with the following command: . ./run/openCL/run.sh
+Run with the following command: . ./run/OMP/run.sh
 Expected output: output_cfdl.txt, output_sfdl.txt, output_cfdl_sfdl.txt, output_default.txt in run/openCL/output/
 
 ------------------------------------------------------------------------------------------------------------------
 
 Requirements
 
-To run with OpenMP:
---> Set OPENMP=1 in arch/intel/config.swe before compiling
+To run with OpenMP (intel only):
+--> Set OPENMP=1 OPENACC = 0 in arch/intel/config.swe before compiling
 --> Set OMP_NUM_THREADS in run script
 
 To run on the Casper GPU system with OpenACC:
@@ -35,16 +35,16 @@ Compile with the following command: ./compile_casper.sh
 --> Run with: ./run/openacc/
 --> 
 
-To run with MPI:
+To run with MPI: (NOT RECENTLY TESTED)
 --> Set MPI=1  before compiling
 --> Change LD_LIBRARY_PATH and PATH in run/hpcl/runMP.sh or run/hpcl/runCL.sh if necessary
 
-To use NetCDF:
+To use NetCDF: (NOT RECENTLY TESTED)
 --> Set NCIO=1 in config.swe before compiling
 --> Set SWE_USE_NETCDF=1 in run script and set SWE_INPUT_FILE to a .nc file
 --> Change NETCDF variable in include.mk if necessary
 
-To run with Intel Compiler:
+To MPI run with Intel Compiler:
 --> Set MPICC=mpiicc and CC=icc in config.swe
 --> Load icc module before compiling if necessary
 --> Change LD_LIBRARY_PATH and PATH in run/hpcl/runMP.sh or run/hpcl/runCL.sh if necessary
