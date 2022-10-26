@@ -11,7 +11,8 @@ Getting started
 Once all folders are on device, navigate to top directory: SWE-SPDP/
 
 CREATE SYMBOLIC LINK TO INITIAL FILES:
->>> ln -s <path to input files> ./input_files
+
+ln -s <path to input files> ./input_files
 
 We suggest you run the serial tests first to familiarize yourself:
 
