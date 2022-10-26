@@ -1,14 +1,19 @@
 ------------------------------------------------------------------------------------------------------------------
 
 Radial Basis Functions with Finite Differencing for Shallow Water Equations
-
-Last update: Richelle Streater, September 7, 2018
+Created as "GEN3" by: Richelle Streater, September 7, 2018
+Most recently updated by: Richard Loft, AreandDee LLC, October 25, 2022
 
 ------------------------------------------------------------------------------------------------------------------
 
 Getting started
 
 Once all folders are on device, navigate to top directory: SWE-SPDP/
+
+CREATE SYMBOLIC LINK TO INITIAL FILES:
+>>> ln -s <path to input files> ./input_files
+
+We suggest you run the serial tests first to familiarize yourself:
 
 Serial/Gnu on personal device (generic gcc compile):
 Compile with the following command: . ./compile_default.sh
@@ -23,7 +28,7 @@ Expected output: output_cfdl.txt, output_sfdl.txt, output_cfdl_sfdl.txt, output_
 
 ------------------------------------------------------------------------------------------------------------------
 
-Requirements
+Parallel Requirements
 
 To run with OpenMP (intel only):
 --> Set OPENMP=1 OPENACC = 0 in arch/intel/config.swe before compiling
@@ -32,8 +37,8 @@ To run with OpenMP (intel only):
 To run on the Casper GPU system with OpenACC:
 --> Set OPENACC = 1; OPENMP = 0 in arch/volta/config.swe (There is an arch/pascal/config.swe but is not tested)
 Compile with the following command: ./compile_casper.sh 
---> Run with: ./run/openacc/
---> 
+--> Run PBS batch script with: ./run/oacc/runOACC.sh
+--> Run interactive script runOACC.sh
 
 To run with MPI: (NOT RECENTLY TESTED)
 --> Set MPI=1  before compiling
@@ -44,7 +49,7 @@ To use NetCDF: (NOT RECENTLY TESTED)
 --> Set SWE_USE_NETCDF=1 in run script and set SWE_INPUT_FILE to a .nc file
 --> Change NETCDF variable in include.mk if necessary
 
-To MPI run with Intel Compiler:
+To MPI run with Intel Compiler: (NOT RECENTLY TESTED)
 --> Set MPICC=mpiicc and CC=icc in config.swe
 --> Load icc module before compiling if necessary
 --> Change LD_LIBRARY_PATH and PATH in run/hpcl/runMP.sh or run/hpcl/runCL.sh if necessary
