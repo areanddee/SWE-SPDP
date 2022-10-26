@@ -1,0 +1,42 @@
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: /Users/loft/Desktop/AreandDee/Clients/CacheQ/SWE/SWE-SPDP/RBF-FD-SWE/input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40964,	compute_gid_e =   40964,		halo_gid_e =   40964
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	2.222720e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	3.495632e-02 	Min: 	3.484004e-02 	Max: 	3.514350e-02 	STDDEV: 	2.969748e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	3.438282e-02 	Min: 	3.430146e-02 	Max: 	3.448269e-02 	STDDEV: 	2.901588e-05
+Eval_K        (seconds/timestep) -> 	Average: 	2.282830e-04 	Min: 	2.245700e-04 	Max: 	2.339600e-04 	STDDEV: 	8.793340e-07
+Update_D      (seconds/timestep) -> 	Average: 	1.863370e-04 	Min: 	1.815500e-04 	Max: 	1.886600e-04 	STDDEV: 	6.641230e-07
+Update_H      (seconds/timestep) -> 	Average: 	8.353500e-05 	Min: 	8.097000e-05 	Max: 	8.919000e-05 	STDDEV: 	7.468604e-07
+
+==============================================================================================================================================

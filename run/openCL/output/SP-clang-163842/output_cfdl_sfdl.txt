@@ -1,0 +1,72 @@
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: /Users/loft/Desktop/AreandDee/Clients/CacheQ/SWE/SWE-SPDP/RBF-FD-SWE/input_files/icos163842_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =  163844,	compute_gid_e =  163844,		halo_gid_e =  163844
+
+================================================================================================================================================================================================================
+
+Attempt 1:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 2:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 3:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 4:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 5:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 6:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 7:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 8:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 9:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+Attempt 10:	
+
+VERIFICATION FAILED: There were a total of 18 values that exceeded an error of 4.0e-02
+
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	9.086320e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.259150e-01 	Min: 	1.247179e-01 	Max: 	1.278783e-01 	STDDEV: 	3.347381e-04
+Eval_Rhs      (seconds/timestep) -> 	Average: 	1.232189e-01 	Min: 	1.222154e-01 	Max: 	1.252744e-01 	STDDEV: 	3.271732e-04
+Eval_K        (seconds/timestep) -> 	Average: 	1.128140e-03 	Min: 	1.087690e-03 	Max: 	1.189510e-03 	STDDEV: 	8.891844e-06
+Update_D      (seconds/timestep) -> 	Average: 	8.365460e-04 	Min: 	8.111900e-04 	Max: 	8.678400e-04 	STDDEV: 	6.778921e-06
+Update_H      (seconds/timestep) -> 	Average: 	3.657010e-04 	Min: 	3.486000e-04 	Max: 	3.786200e-04 	STDDEV: 	3.283373e-06
+
+==============================================================================================================================================

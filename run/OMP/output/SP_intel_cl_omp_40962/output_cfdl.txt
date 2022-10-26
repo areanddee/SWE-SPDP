@@ -1,0 +1,942 @@
+Begin OMP tests... 
+40962  Nodes
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 2  SWE_NATTEMPTS= 10
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	2.108436e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	5.800066e-03 	Min: 	5.767628e-03 	Max: 	5.872186e-03 	STDDEV: 	1.122228e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	5.375977e-03 	Min: 	5.361354e-03 	Max: 	5.393909e-03 	STDDEV: 	1.018840e-05
+Eval_K        (seconds/timestep) -> 	Average: 	1.287613e-04 	Min: 	1.274531e-04 	Max: 	1.338408e-04 	STDDEV: 	5.588964e-07
+Update_D      (seconds/timestep) -> 	Average: 	1.143894e-04 	Min: 	1.130993e-04 	Max: 	1.154611e-04 	STDDEV: 	1.787190e-07
+Update_H      (seconds/timestep) -> 	Average: 	3.154783e-05 	Min: 	3.136009e-05 	Max: 	3.190083e-05 	STDDEV: 	4.893582e-08
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 4  SWE_NATTEMPTS= 10
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.488248e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	3.180741e-03 	Min: 	3.115853e-03 	Max: 	3.227906e-03 	STDDEV: 	1.202106e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	2.888551e-03 	Min: 	2.827700e-03 	Max: 	2.927454e-03 	STDDEV: 	1.179492e-05
+Eval_K        (seconds/timestep) -> 	Average: 	8.373704e-05 	Min: 	8.131277e-05 	Max: 	9.004997e-05 	STDDEV: 	7.173121e-07
+Update_D      (seconds/timestep) -> 	Average: 	7.208302e-05 	Min: 	6.460436e-05 	Max: 	7.548066e-05 	STDDEV: 	1.463524e-06
+Update_H      (seconds/timestep) -> 	Average: 	1.981554e-05 	Min: 	1.921510e-05 	Max: 	2.077676e-05 	STDDEV: 	1.831093e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 6  SWE_NATTEMPTS= 10
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.187274e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	2.232078e-03 	Min: 	2.204831e-03 	Max: 	2.301831e-03 	STDDEV: 	1.066014e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	1.962306e-03 	Min: 	1.947627e-03 	Max: 	2.027337e-03 	STDDEV: 	7.589464e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.778464e-05 	Min: 	6.600779e-05 	Max: 	7.406570e-05 	STDDEV: 	7.121983e-07
+Update_D      (seconds/timestep) -> 	Average: 	5.078848e-05 	Min: 	4.868563e-05 	Max: 	5.308764e-05 	STDDEV: 	4.903082e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.563700e-05 	Min: 	1.464181e-05 	Max: 	1.691215e-05 	STDDEV: 	2.873848e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 8  SWE_NATTEMPTS= 10
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.166240e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.783520e-03 	Min: 	1.761432e-03 	Max: 	1.852419e-03 	STDDEV: 	1.054280e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	1.519566e-03 	Min: 	1.503424e-03 	Max: 	1.591376e-03 	STDDEV: 	8.498949e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.496557e-05 	Min: 	6.442834e-05 	Max: 	6.671900e-05 	STDDEV: 	1.946119e-07
+Update_D      (seconds/timestep) -> 	Average: 	4.219271e-05 	Min: 	4.200442e-05 	Max: 	4.250644e-05 	STDDEV: 	5.290292e-08
+Update_H      (seconds/timestep) -> 	Average: 	1.505364e-05 	Min: 	1.481837e-05 	Max: 	1.541927e-05 	STDDEV: 	5.589875e-08
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 10  SWE_NATTEMPTS= 10
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.180870e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.467342e-03 	Min: 	1.419213e-03 	Max: 	1.561899e-03 	STDDEV: 	1.443742e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	1.218785e-03 	Min: 	1.202153e-03 	Max: 	1.304172e-03 	STDDEV: 	9.695379e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.152694e-05 	Min: 	5.675942e-05 	Max: 	6.956533e-05 	STDDEV: 	1.165240e-06
+Update_D      (seconds/timestep) -> 	Average: 	4.062022e-05 	Min: 	3.858361e-05 	Max: 	4.422383e-05 	STDDEV: 	7.823587e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.360361e-05 	Min: 	1.156071e-05 	Max: 	1.465145e-05 	STDDEV: 	4.103524e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 12  SWE_NATTEMPTS= 10
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.205558e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.296159e-03 	Min: 	1.243701e-03 	Max: 	1.377586e-03 	STDDEV: 	1.301349e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	1.050181e-03 	Min: 	1.031737e-03 	Max: 	1.128506e-03 	STDDEV: 	9.078469e-06
+Eval_K        (seconds/timestep) -> 	Average: 	5.928381e-05 	Min: 	5.454354e-05 	Max: 	6.301019e-05 	STDDEV: 	7.932589e-07
+Update_D      (seconds/timestep) -> 	Average: 	3.786501e-05 	Min: 	3.617449e-05 	Max: 	4.230283e-05 	STDDEV: 	7.280109e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.339312e-05 	Min: 	1.086013e-05 	Max: 	1.752853e-05 	STDDEV: 	5.448486e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 14  SWE_NATTEMPTS= 10
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.213773e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.170188e-03 	Min: 	1.130464e-03 	Max: 	1.239905e-03 	STDDEV: 	9.828617e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	9.167773e-04 	Min: 	8.952495e-04 	Max: 	9.676297e-04 	STDDEV: 	7.077162e-06
+Eval_K        (seconds/timestep) -> 	Average: 	5.868698e-05 	Min: 	5.343897e-05 	Max: 	5.957412e-05 	STDDEV: 	5.559247e-07
+Update_D      (seconds/timestep) -> 	Average: 	3.592296e-05 	Min: 	3.532490e-05 	Max: 	3.625115e-05 	STDDEV: 	8.381906e-08
+Update_H      (seconds/timestep) -> 	Average: 	1.292025e-05 	Min: 	1.012001e-05 	Max: 	1.650892e-05 	STDDEV: 	4.570644e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 16  SWE_NATTEMPTS= 10
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.216145e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.092868e-03 	Min: 	1.070719e-03 	Max: 	1.163000e-03 	STDDEV: 	1.102666e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	8.327361e-04 	Min: 	8.170831e-04 	Max: 	9.064479e-04 	STDDEV: 	8.841749e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.299389e-05 	Min: 	6.246338e-05 	Max: 	6.428499e-05 	STDDEV: 	1.526150e-07
+Update_D      (seconds/timestep) -> 	Average: 	3.690427e-05 	Min: 	3.656097e-05 	Max: 	3.765214e-05 	STDDEV: 	8.961570e-08
+Update_H      (seconds/timestep) -> 	Average: 	1.298696e-05 	Min: 	1.184873e-05 	Max: 	1.337051e-05 	STDDEV: 	1.259520e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 18  SWE_NATTEMPTS= 20
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 20
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.209494e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.004294e-03 	Min: 	9.671592e-04 	Max: 	1.095119e-03 	STDDEV: 	8.476928e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	7.662215e-04 	Min: 	7.516404e-04 	Max: 	8.258268e-04 	STDDEV: 	4.838275e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.061423e-05 	Min: 	5.659888e-05 	Max: 	8.161986e-05 	STDDEV: 	1.224151e-06
+Update_D      (seconds/timestep) -> 	Average: 	3.878571e-05 	Min: 	3.616957e-05 	Max: 	4.126873e-05 	STDDEV: 	4.798163e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.110802e-05 	Min: 	9.056032e-06 	Max: 	1.321185e-05 	STDDEV: 	4.216585e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 20  SWE_NATTEMPTS= 20
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 20
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.175211e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	9.969086e-04 	Min: 	9.676210e-04 	Max: 	1.084350e-03 	STDDEV: 	6.534913e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	7.628212e-04 	Min: 	7.440480e-04 	Max: 	8.354528e-04 	STDDEV: 	5.046162e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.540552e-05 	Min: 	6.276147e-05 	Max: 	6.774127e-05 	STDDEV: 	3.504846e-07
+Update_D      (seconds/timestep) -> 	Average: 	4.176599e-05 	Min: 	4.098361e-05 	Max: 	4.266452e-05 	STDDEV: 	1.019186e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.316126e-05 	Min: 	1.107100e-05 	Max: 	1.506586e-05 	STDDEV: 	3.958163e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 22  SWE_NATTEMPTS= 20
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 20
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.139296e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.015322e-03 	Min: 	9.595585e-04 	Max: 	1.272015e-03 	STDDEV: 	2.071443e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	7.436680e-04 	Min: 	7.221695e-04 	Max: 	8.786487e-04 	STDDEV: 	1.823059e-05
+Eval_K        (seconds/timestep) -> 	Average: 	7.430905e-05 	Min: 	6.982362e-05 	Max: 	1.304014e-04 	STDDEV: 	2.890570e-06
+Update_D      (seconds/timestep) -> 	Average: 	4.279388e-05 	Min: 	4.026081e-05 	Max: 	6.515186e-05 	STDDEV: 	1.174684e-06
+Update_H      (seconds/timestep) -> 	Average: 	1.730838e-05 	Min: 	1.547780e-05 	Max: 	1.978386e-05 	STDDEV: 	3.772917e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 24  SWE_NATTEMPTS= 20
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 20
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.166185e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	9.673060e-04 	Min: 	9.328149e-04 	Max: 	1.066214e-03 	STDDEV: 	7.544758e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	6.962173e-04 	Min: 	6.781971e-04 	Max: 	7.284725e-04 	STDDEV: 	4.727019e-06
+Eval_K        (seconds/timestep) -> 	Average: 	7.492900e-05 	Min: 	7.053185e-05 	Max: 	9.001402e-05 	STDDEV: 	1.085639e-06
+Update_D      (seconds/timestep) -> 	Average: 	3.682620e-05 	Min: 	3.651286e-05 	Max: 	3.732432e-05 	STDDEV: 	4.559919e-08
+Update_H      (seconds/timestep) -> 	Average: 	1.894998e-05 	Min: 	1.811145e-05 	Max: 	1.998125e-05 	STDDEV: 	1.566576e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 26  SWE_NATTEMPTS= 20
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 20
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.189759e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	9.382538e-04 	Min: 	8.963928e-04 	Max: 	1.123578e-03 	STDDEV: 	1.177845e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	6.800716e-04 	Min: 	6.733119e-04 	Max: 	7.523537e-04 	STDDEV: 	7.730868e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.195816e-05 	Min: 	5.095860e-05 	Max: 	7.285478e-05 	STDDEV: 	2.165967e-06
+Update_D      (seconds/timestep) -> 	Average: 	3.997999e-05 	Min: 	3.677607e-05 	Max: 	4.311351e-05 	STDDEV: 	6.372394e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.602262e-05 	Min: 	1.242930e-05 	Max: 	1.948820e-05 	STDDEV: 	7.328651e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 28  SWE_NATTEMPTS= 20
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 20
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.194100e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	9.018001e-04 	Min: 	8.689752e-04 	Max: 	1.012643e-03 	STDDEV: 	8.410660e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	6.375706e-04 	Min: 	6.305662e-04 	Max: 	6.690761e-04 	STDDEV: 	3.455782e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.260537e-05 	Min: 	4.982220e-05 	Max: 	8.949190e-05 	STDDEV: 	2.658810e-06
+Update_D      (seconds/timestep) -> 	Average: 	3.830461e-05 	Min: 	3.689941e-05 	Max: 	4.978545e-05 	STDDEV: 	5.995596e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.660289e-05 	Min: 	1.220118e-05 	Max: 	2.031280e-05 	STDDEV: 	8.625847e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 30  SWE_NATTEMPTS= 20
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 20
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.189159e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	8.929662e-04 	Min: 	8.444631e-04 	Max: 	1.005219e-03 	STDDEV: 	9.417676e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	6.246665e-04 	Min: 	6.081787e-04 	Max: 	7.246431e-04 	STDDEV: 	7.517049e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.379165e-05 	Min: 	5.169937e-05 	Max: 	7.214595e-05 	STDDEV: 	2.117550e-06
+Update_D      (seconds/timestep) -> 	Average: 	4.184434e-05 	Min: 	3.910219e-05 	Max: 	4.621163e-05 	STDDEV: 	6.189170e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.737907e-05 	Min: 	1.321912e-05 	Max: 	2.076611e-05 	STDDEV: 	7.830394e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 32  SWE_NATTEMPTS= 30
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 30
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+Attempt 21:	VERIFICATION SUCCEEDED
+Attempt 22:	VERIFICATION SUCCEEDED
+Attempt 23:	VERIFICATION SUCCEEDED
+Attempt 24:	VERIFICATION SUCCEEDED
+Attempt 25:	VERIFICATION SUCCEEDED
+Attempt 26:	VERIFICATION SUCCEEDED
+Attempt 27:	VERIFICATION SUCCEEDED
+Attempt 28:	VERIFICATION SUCCEEDED
+Attempt 29:	VERIFICATION SUCCEEDED
+Attempt 30:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.168700e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	8.529980e-04 	Min: 	8.275917e-04 	Max: 	9.811424e-04 	STDDEV: 	6.590137e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	5.756175e-04 	Min: 	5.655587e-04 	Max: 	6.561207e-04 	STDDEV: 	3.972596e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.737764e-05 	Min: 	6.438596e-05 	Max: 	7.172823e-05 	STDDEV: 	5.698301e-07
+Update_D      (seconds/timestep) -> 	Average: 	3.893808e-05 	Min: 	3.770940e-05 	Max: 	4.429780e-05 	STDDEV: 	2.118643e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.645417e-05 	Min: 	1.331368e-05 	Max: 	2.362618e-05 	STDDEV: 	6.619655e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 34  SWE_NATTEMPTS= 30
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 30
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+Attempt 21:	VERIFICATION SUCCEEDED
+Attempt 22:	VERIFICATION SUCCEEDED
+Attempt 23:	VERIFICATION SUCCEEDED
+Attempt 24:	VERIFICATION SUCCEEDED
+Attempt 25:	VERIFICATION SUCCEEDED
+Attempt 26:	VERIFICATION SUCCEEDED
+Attempt 27:	VERIFICATION SUCCEEDED
+Attempt 28:	VERIFICATION SUCCEEDED
+Attempt 29:	VERIFICATION SUCCEEDED
+Attempt 30:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.187343e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	8.328695e-04 	Min: 	7.962320e-04 	Max: 	9.734599e-04 	STDDEV: 	8.320803e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	5.631696e-04 	Min: 	5.503080e-04 	Max: 	6.505995e-04 	STDDEV: 	4.977154e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.352775e-05 	Min: 	5.563488e-05 	Max: 	8.015469e-05 	STDDEV: 	1.662171e-06
+Update_D      (seconds/timestep) -> 	Average: 	4.539291e-05 	Min: 	4.052049e-05 	Max: 	4.850473e-05 	STDDEV: 	6.282198e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.703268e-05 	Min: 	1.388779e-05 	Max: 	2.196025e-05 	STDDEV: 	6.875510e-07
+
+==============================================================================================================================================
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OMP_NUM_THREADS= 36  SWE_NATTEMPTS= 30
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: ../../input_files/icos40962_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 30
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =   40968,	compute_gid_e =   40968,		halo_gid_e =   40968
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+Attempt 11:	VERIFICATION SUCCEEDED
+Attempt 12:	VERIFICATION SUCCEEDED
+Attempt 13:	VERIFICATION SUCCEEDED
+Attempt 14:	VERIFICATION SUCCEEDED
+Attempt 15:	VERIFICATION SUCCEEDED
+Attempt 16:	VERIFICATION SUCCEEDED
+Attempt 17:	VERIFICATION SUCCEEDED
+Attempt 18:	VERIFICATION SUCCEEDED
+Attempt 19:	VERIFICATION SUCCEEDED
+Attempt 20:	VERIFICATION SUCCEEDED
+Attempt 21:	VERIFICATION SUCCEEDED
+Attempt 22:	VERIFICATION SUCCEEDED
+Attempt 23:	VERIFICATION SUCCEEDED
+Attempt 24:	VERIFICATION SUCCEEDED
+Attempt 25:	VERIFICATION SUCCEEDED
+Attempt 26:	VERIFICATION SUCCEEDED
+Attempt 27:	VERIFICATION SUCCEEDED
+Attempt 28:	VERIFICATION SUCCEEDED
+Attempt 29:	VERIFICATION SUCCEEDED
+Attempt 30:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.169085e-01
+Main RK4 Loop (seconds/timestep) -> 	Average: 	8.197814e-04 	Min: 	7.978258e-04 	Max: 	9.434431e-04 	STDDEV: 	6.602555e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	5.331090e-04 	Min: 	5.275605e-04 	Max: 	6.233060e-04 	STDDEV: 	3.883549e-06
+Eval_K        (seconds/timestep) -> 	Average: 	6.160591e-05 	Min: 	5.157139e-05 	Max: 	8.994242e-05 	STDDEV: 	2.120128e-06
+Update_D      (seconds/timestep) -> 	Average: 	4.356790e-05 	Min: 	4.228396e-05 	Max: 	4.434198e-05 	STDDEV: 	1.178368e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.788580e-05 	Min: 	1.451617e-05 	Max: 	2.321584e-05 	STDDEV: 	7.221307e-07
+
+==============================================================================================================================================

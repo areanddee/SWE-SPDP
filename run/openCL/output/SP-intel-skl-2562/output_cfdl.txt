@@ -1,0 +1,114 @@
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: /Users/loft/Desktop/AreandDee/Clients/CacheQ/SWE/SWE-SPDP/RBF-FD-SWE/input_files/icos655362_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =  655368,	compute_gid_e =  655368,		halo_gid_e =  655368
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	3.128019e+00
+Main RK4 Loop (seconds/timestep) -> 	Average: 	3.338413e-01 	Min: 	3.271533e-01 	Max: 	3.455079e-01 	STDDEV: 	2.037760e-03
+Eval_Rhs      (seconds/timestep) -> 	Average: 	3.233447e-01 	Min: 	3.159788e-01 	Max: 	3.337770e-01 	STDDEV: 	2.002198e-03
+Eval_K        (seconds/timestep) -> 	Average: 	5.647053e-03 	Min: 	5.549020e-03 	Max: 	5.826730e-03 	STDDEV: 	3.146317e-05
+Update_D      (seconds/timestep) -> 	Average: 	3.812788e-03 	Min: 	3.727150e-03 	Max: 	3.931890e-03 	STDDEV: 	2.202837e-05
+Update_H      (seconds/timestep) -> 	Average: 	1.242403e-03 	Min: 	1.177280e-03 	Max: 	1.429380e-03 	STDDEV: 	2.352219e-05
+
+==============================================================================================================================================
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: /glade/u/home/loft/RBF-FD-SWE/input_files/icos2562_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =    2568,	compute_gid_e =    2568,		halo_gid_e =    2568
+
+================================================================================================================================================================================================================
+
+Attempt 1:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 2:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 3:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 4:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 5:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 6:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 7:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 8:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 9:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+Attempt 10:	
+
+VERIFICATION FAILED: There were a total of 3 values that exceeded an error of 4.0e-02
+
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.153412e-02
+Main RK4 Loop (seconds/timestep) -> 	Average: 	8.850510e-04 	Min: 	8.373402e-04 	Max: 	9.148655e-04 	STDDEV: 	7.909651e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	8.537679e-04 	Min: 	8.128274e-04 	Max: 	8.833993e-04 	STDDEV: 	7.929815e-06
+Eval_K        (seconds/timestep) -> 	Average: 	9.786826e-06 	Min: 	9.417031e-06 	Max: 	1.011427e-05 	STDDEV: 	8.108817e-08
+Update_D      (seconds/timestep) -> 	Average: 	7.906012e-06 	Min: 	7.592253e-06 	Max: 	8.464511e-06 	STDDEV: 	7.600917e-08
+Update_H      (seconds/timestep) -> 	Average: 	4.187467e-06 	Min: 	3.946982e-06 	Max: 	4.345812e-06 	STDDEV: 	3.746159e-08
+
+==============================================================================================================================================

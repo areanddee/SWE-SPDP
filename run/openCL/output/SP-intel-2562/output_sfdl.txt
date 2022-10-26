@@ -1,0 +1,126 @@
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: /Users/loft/Desktop/AreandDee/Clients/CacheQ/SWE/SWE-SPDP/RBF-FD-SWE/input_files/icos655362_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =  655364,	compute_gid_e =  655364,		halo_gid_e =  655364
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	3.897997e+00
+Main RK4 Loop (seconds/timestep) -> 	Average: 	6.022682e-01 	Min: 	5.880817e-01 	Max: 	6.187973e-01 	STDDEV: 	3.206492e-03
+Eval_Rhs      (seconds/timestep) -> 	Average: 	5.886745e-01 	Min: 	5.779574e-01 	Max: 	6.006983e-01 	STDDEV: 	3.301329e-03
+Eval_K        (seconds/timestep) -> 	Average: 	4.735941e-03 	Min: 	4.618080e-03 	Max: 	4.851390e-03 	STDDEV: 	2.544239e-05
+Update_D      (seconds/timestep) -> 	Average: 	3.406911e-03 	Min: 	3.284210e-03 	Max: 	3.517100e-03 	STDDEV: 	2.155460e-05
+Update_H      (seconds/timestep) -> 	Average: 	1.432615e-03 	Min: 	1.348040e-03 	Max: 	1.504370e-03 	STDDEV: 	1.482607e-05
+
+==============================================================================================================================================
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: /Users/loft/Desktop/AreandDee/Clients/CacheQ/SWE/SWE-SPDP/RBF-FD-SWE/input_files/icos2562_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =    2568,	compute_gid_e =    2568,		halo_gid_e =    2568
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	8.530000e-03
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.612768e-03 	Min: 	1.527660e-03 	Max: 	1.665040e-03 	STDDEV: 	1.347668e-05
+Eval_Rhs      (seconds/timestep) -> 	Average: 	1.589063e-03 	Min: 	1.514850e-03 	Max: 	1.649010e-03 	STDDEV: 	1.333528e-05
+Eval_K        (seconds/timestep) -> 	Average: 	5.162000e-06 	Min: 	4.639998e-06 	Max: 	5.850007e-06 	STDDEV: 	1.250185e-07
+Update_D      (seconds/timestep) -> 	Average: 	4.346001e-06 	Min: 	3.600004e-06 	Max: 	5.349998e-06 	STDDEV: 	1.781804e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.990999e-06 	Min: 	1.780004e-06 	Max: 	2.559997e-06 	STDDEV: 	7.047605e-08
+
+==============================================================================================================================================
+
+
+=============================================== Runtime Configurations ===================================================
+
+Input from file: yes
+	Input File Path: /Users/loft/Desktop/AreandDee/Clients/CacheQ/SWE/SWE-SPDP/RBF-FD-SWE/input_files/icos2562_tc5_input.bin
+
+Simulation length (timesteps): 100
+Number of attempts: 10
+USE RCM Node Ordering: yes
+
+============================================================================================================================
+
+
+
+====================================================================================== MPI Patch Decomposition ================================================================================================
+
+	Rank #  0:	halo_gid_s =       0,	compute_gid_s =       0,	lnbr_halo_gid_e =       0,	rnbr_halo_gid_s =    2568,	compute_gid_e =    2568,		halo_gid_e =    2568
+
+================================================================================================================================================================================================================
+
+Attempt 1:	VERIFICATION SUCCEEDED
+Attempt 2:	VERIFICATION SUCCEEDED
+Attempt 3:	VERIFICATION SUCCEEDED
+Attempt 4:	VERIFICATION SUCCEEDED
+Attempt 5:	VERIFICATION SUCCEEDED
+Attempt 6:	VERIFICATION SUCCEEDED
+Attempt 7:	VERIFICATION SUCCEEDED
+Attempt 8:	VERIFICATION SUCCEEDED
+Attempt 9:	VERIFICATION SUCCEEDED
+Attempt 10:	VERIFICATION SUCCEEDED
+
+============================================================= Profiling Results ==============================================================
+
+Total Initialization Time (seconds): 	1.011200e-02
+Main RK4 Loop (seconds/timestep) -> 	Average: 	1.610481e-03 	Min: 	1.567530e-03 	Max: 	1.662460e-03 	STDDEV: 	9.834179e-06
+Eval_Rhs      (seconds/timestep) -> 	Average: 	1.587452e-03 	Min: 	1.553630e-03 	Max: 	1.645960e-03 	STDDEV: 	9.861073e-06
+Eval_K        (seconds/timestep) -> 	Average: 	5.030000e-06 	Min: 	4.520000e-06 	Max: 	5.860000e-06 	STDDEV: 	1.139565e-07
+Update_D      (seconds/timestep) -> 	Average: 	4.583002e-06 	Min: 	4.019999e-06 	Max: 	5.230005e-06 	STDDEV: 	1.341941e-07
+Update_H      (seconds/timestep) -> 	Average: 	1.998999e-06 	Min: 	1.799995e-06 	Max: 	2.400001e-06 	STDDEV: 	5.812874e-08
+
+==============================================================================================================================================
