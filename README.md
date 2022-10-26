@@ -175,3 +175,5 @@ It looks like RCM is turned on by default. You might change it to
 
 export SWE_USE_RCM=0
 
+The input files are quite large and must be provided separately. They are called icos<NODES>_tc5_input.nc, and MUST be located in a directory called  ./input_files.
+
