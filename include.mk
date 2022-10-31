@@ -26,6 +26,7 @@ INCLUDE_ALL	    =	$(INCLUDE_COMMON) $(INCLUDE_IO) $(INCLUDE_RCM) $(INCLUDE_LAYOU
 
 # libs
 SWE_LIBS	    =   $(MPI_DIR)/swe_mpi.a $(IO_DIR)/swe_io.a $(RCM_DIR)/swe_rcm.a $(LAYOUT_DIR)/swe_dl.a $(MAIN_DIR)/swe_main.a $(OCL_DIR)/swe_ocl.a
+SWE_LIBS	+= -lm
 
 # linux utilities
 MKDIR_P		    =	mkdir -p
