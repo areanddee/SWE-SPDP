@@ -216,6 +216,8 @@ GSMD_struct get_GSMD_bin(char* inputFile) {
     fread((void*) &dt, sizeof(fType_Input), 1, fp_in);
     GSMD.dt = (fType)dt;
 
+	printf("Nnodes= %i Timestep =%f\n",GSMD.Nnodes,dt);
+
     fread((void*) &gamma, sizeof(fType_Input), 1, fp_in);
     GSMD.gamma = (fType)gamma;
 

@@ -2,6 +2,7 @@ ifndef MAKE_DEFS
 
 # swe model top directory
 ARCH_DIR = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+$(warning   ARCH_DIR is $(ARCH_DIR))
 
 # Directories
 SOURCE_DIR          =	$(TOP_DIR)/swe_code

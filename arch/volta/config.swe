@@ -1,10 +1,10 @@
 ### PGI pgcc compiler configuration
-CC              =	pgcc
+CC              =	nvc
 MPICC           =	mpicc
 OPT_FLAGS	=	-O3 ## -fast
 #C99_FLAGS       =	-std=c99 #Doesn't work in nvcc 21
-ACC_FLAGS	=  -acc -ta=tesla -Minfo=accel 
-SIMD_LENGTH	    =	32
+ACC_FLAGS	=  -acc -gpu=managed -Minfo=accel 
+SIMD_LENGTH	    =	128
 
 ### Parallelization Options
 # MPI parallelization

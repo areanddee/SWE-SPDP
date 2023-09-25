@@ -73,6 +73,7 @@ typedef double  fType_Input; // type of precomputed inputs to model
 // Sets 32 bit execution (or not)
 
 #define RUN_32BIT 
+//#define RUN_64BIT
 
 #ifdef RUN_32BIT
 
@@ -89,6 +90,7 @@ typedef double    fType;      // type used by model calculations
 #ifdef USE_MPI
 	#define MPI_FTYPE MPI_DOUBLE
 #endif
+
 
 #endif
 

@@ -1,14 +1,16 @@
 ### PGI pgcc compiler configuration
-CC              =	pgcc
+CC              =	nvc
 MPICC           =	mpicc
-OPT_FLAGS	=	-fast
-C99_FLAGS       =	-c99
-ACC_FLAGS	=	-ta=tesla:cc70,managed -Minfo=accel
-SIMD_LENGTH	    =	32
+OPT_FLAGS	=	-O3 -acc -gpu=managed -Minfo=accel
+#:managed
+C99_FLAGS       =	
+ACC_FLAGS	=	
+#-gpu=cc60 -Minfo=accel
+SIMD_LENGTH = 128
 
 ### Parallelization Options
 # MPI parallelization
-MPI	            =	1
+MPI	            =	0
 
 # OpenMP/OpenACC (can only use one)
 OPENMP	        =	0
@@ -37,4 +39,4 @@ PADDED_NUM	    =	0
 ### Vectorization Options- only valid for OpenMP/OpenACC
 # method for vectorization of RHS differentiation loops: 0 (none), 1 (outer loop), 2 (inner loop)
 RHS_SIMD_METHOD	=	1
-EXEC_DIR	    =	run/psg
+EXEC_DIR	    =	run/oacc
